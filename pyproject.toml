@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "graphviewersaas"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+matplotlib = {extras = ["pdf"], version = "^3.9.1.post1"}
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+streamlit = "^1.37.0"
+openpyxl = "^3.1.5"
+numpy = "1.26.4"
+hupper = "^1.12.1"
+customtkinter = "^5.2.2"
+pyinstaller = "^6.9.0"
+pillow = "^10.4.0"
+cairosvg = "^2.7.1"
+reportlab = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
